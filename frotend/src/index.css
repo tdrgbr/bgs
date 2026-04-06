@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+
+@import "tailwindcss";
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  @apply w-1 rounded-full;
+}
+
+.sidebar {
+  @apply duration-350;
+}
+.bg-cards {
+  @apply backdrop-blur-2xl;
+}
+.title {
+  font-family: "Bebas Neue", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #5e5e5e;
+}
+* {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
